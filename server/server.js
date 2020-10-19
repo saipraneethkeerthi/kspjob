@@ -6,8 +6,11 @@ const app = express();
 
 const PORT = process.env.PORT || 5000;
 
-const buildPath = path.join(__dirname, '..', 'build');
+const buildPath = path.join(__dirname, 'build');
 app.use(express.static(buildPath));
+app.get('/*', (req, res) => {
+  res.sendFile(path.join(__dirname, 'build', 'index.html'));
+});
 app.use(cors());
 
 app.get('/api/jobs', async (req, res) => {
