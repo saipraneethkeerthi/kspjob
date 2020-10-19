@@ -1,4 +1,4 @@
-steps of run the project
+steps to run the project
 
 
 1. npm install
