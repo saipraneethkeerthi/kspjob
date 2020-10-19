@@ -23,7 +23,7 @@ const JobDetails = () => {
   return (
     <div className="job-details">
       <div className="back-link">
-        <a href="/#" onClick={onResetPage}>
+        <a href="/home" onClick={onResetPage}>
           &lt;&lt; Back to results
         </a>
       </div>
