@@ -79,7 +79,7 @@ class Login extends Component {
 													KSP JobFinder.{" "}
 												</p>
 												<Link
-													to='/'
+													to='/home'
 													className='logo logo-admin'>
 													<img
 														src={logoSm}
@@ -92,8 +92,7 @@ class Login extends Component {
 										<br/><br/>
 										<CardBody className='p-4'>
 											<div className='p-3'>
-												<form action="/page"
-													>
+												<form>
 													<div className='form-group'>
 														<Field
 															name='email'
@@ -129,10 +128,10 @@ class Login extends Component {
 														{/* <a href="/page" style={{color:"white"}}> */}
 															<button
 																className='btn btn-primary w-md waves-effect waves-light'
-																type='submit'
+																// type='submit'
 																// onclick="location.href='/page'"
 																// onclick={location.href='/page'}
-																>Log In
+																><a hef="/page1">LogIn</a>
 
 															</button>{" "}
 															{/* </a> */}

@@ -68,7 +68,7 @@ class Signup extends Component {
                       onConfirm={() => this.setState({ img_header: false })}
                     >
                       Backend was not attached to the form
-                      Click on the LOGIN button to get started
+                      Click on the KSP logo in Login page to get started
                     </SweetAlert>
                   ) : null}
                 </Col>

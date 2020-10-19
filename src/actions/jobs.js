@@ -27,7 +27,7 @@ export const initiateGetJobs = (data, isLoadMore) => {
       }
 
       const jobs = await axios.get(    
-        `/api/jobs?description=${description}&location=${location}${full_time}${page}`
+        `/jobs?description=${description}&location=${location}${full_time}${page}`
       );
       // const jobs = await axios.get('./jobs.json');
       const sortedJobs = jobs.data.sort(

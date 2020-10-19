@@ -9,7 +9,7 @@ export default (
   
     <Route path="/" exact component={Login} />
      <Route path="/register" exact component={Signup} />
-    <Route path="/page" exact component={Homepage} /> 
+    <Route path="/home" exact component={Homepage} /> 
   
     
 
